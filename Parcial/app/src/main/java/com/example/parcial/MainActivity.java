@@ -63,19 +63,11 @@ public class MainActivity extends AppCompatActivity {
 
     }
     public void cargar(){
-        lista.add("Matematica: Practica, practica y practica. La resolución de problemas es clave para mejorar tus habilidades matemáticas.\n" +
-                "No te desanimes si no entiendes algo al principio. A veces, los conceptos matemáticos pueden ser difíciles de comprender de inmediato." +
-                " Tómate el tiempo necesario para analizar el problema y preguntar a tu profesor o compañeros de clase si necesitas ayuda.");
-        lista.add("Calculo: Familiarízate con las funciones básicas. Las funciones son una parte fundamental del cálculo. Aprende a trabajar con funciones comunes como las polinómicas, trigonométricas y exponenciales.\n" +
-                "Conoce tus límites. El cálculo se trata de trabajar con límites y aproximaciones. Aprende a calcular límites y a aplicarlos a problemas reales.\n" +
-                "No te saltes pasos. El cálculo es un proceso paso a paso, y saltarte un paso puede llevarte a cometer errores. Tómate el tiempo necesario para entender cada paso del proceso.");
-        lista.add("Filosofia: Lee y reflexiona. La filosofía es una disciplina que requiere mucha lectura y reflexión. Dedica tiempo a leer obras filosóficas y reflexiona sobre sus ideas y argumentos.\n" +
-                "Piensa críticamente. La filosofía es una disciplina que se basa en la argumentación y el debate. Aprende a pensar críticamente y a cuestionar las suposiciones subyacentes en los argumentos.");
-        lista.add("Historia: Investiga fuentes primarias. Las fuentes primarias son documentos originales, como cartas, diarios, fotografías y periódicos de la época, que proporcionan una visión auténtica de los eventos históricos. Aprende a buscar y analizar fuentes primarias para obtener una comprensión más profunda de los eventos históricos.\n" +
-                "Considera el contexto. La historia se desarrolla en un contexto social, político y económico específico. Aprende a considerar el contexto en el que tuvo lugar un evento histórico para comprender mejor sus causas y consecuencias.");
-        lista.add("Logica: Aprende los principios básicos. La lógica se basa en principios básicos como la deducción, la inducción y la abducción. Aprende a aplicar estos principios para resolver problemas lógicos.\n" +
-                "Identifica las falacias. Las falacias son errores comunes en el razonamiento que pueden llevar a conclusiones falsas. Aprende a identificar las falacias y a evitarlas en tus propios argumentos.\n" +
-                "Practica el pensamiento crítico. La lógica es una herramienta importante para el pensamiento crítico. Practica el pensamiento crítico analizando argumentos y evaluando evidencia.");
+        lista.add("Comprar Productos de higiene");
+        lista.add("Comprobar que no gotee el grifo");
+        lista.add("Reparar la ducha");
+        lista.add("Comprar Leche");
+        lista.add("Comprar Pan");
     }
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
